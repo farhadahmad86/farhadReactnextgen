@@ -1,0 +1,38 @@
+.portfolio-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio-image {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Same as width for a square */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px; /* Optional, adds rounded corners */
+  background-color: #f0f0f0; /* Fallback background for empty space */
+}
+
+.portfolio-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures images maintain their aspect ratio */
+}
+
+.portfolio-content {
+  margin-top: 10px;
+}
+
+.portfolio-content h4 {
+  font-size: 14px; /* Adjust as needed */
+  text-align: center;
+  margin: 0;
+  white-space: nowrap; /* Keeps title in a single line */
+  overflow: hidden; /* Truncates long titles */
+  text-overflow: ellipsis;
+  width: 100%; /* Matches the container width */
+}

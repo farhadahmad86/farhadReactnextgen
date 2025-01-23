@@ -1,0 +1,358 @@
+.technologies-portfolio .tech-portfolio-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.technologies-portfolio .tech-portfolio-image {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Same as width for a square */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px; /* Optional, adds rounded corners */
+  /* background-color: #f0f0f0; Fallback background for empty space */
+}
+
+.technologies-portfolio .tech-portfolio-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures images maintain their aspect ratio */
+}
+
+.technologies-portfolio .tech-portfolio-content {
+  margin-top: 10px;
+}
+
+.technologies-portfolio .tech-portfolio-content h4 {
+  font-size: 18px; /* Adjust as needed */
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap; /* Keeps title in a single line */
+  overflow: hidden; /* Truncates long titles */
+  text-overflow: ellipsis;
+  width: 100%; /* Matches the container width */
+}
+#tws{
+  width: 18% !important;
+}
+@media (max-width: 575px) {
+  #tws{
+  width: 100% !important;
+}
+}
+#prc{
+  width: 20% !important;
+}
+@media (max-width: 575px) {
+  #prc{
+  width: 100% !important;
+}
+}
+#prc_sec{
+  width: 13% !important;
+  font-size: 12px;
+}
+@media (max-width: 575px) {
+  #prc_sec{
+  width: 100% !important;
+}
+}
+/* Pricing Section */
+.pricing {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+/* Tabs */
+.pricing-tabs {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.pricing-tabs li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 20px; /* Adjusting padding to balance */
+  margin: 0 5px; /* Center align the text */
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: center; /* Center the text within each button */
+  transition: all 0.3s ease-in-out;
+  font-family: var(--heading-font);
+  width: 24%;
+}
+
+.pricing-tabs li:hover {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+.tab-active {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+/* Pricing Cards */
+.pricing-card {
+  background: #fff;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px var(--accent-color);
+}
+
+.pricing-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pricing-price {
+  font-size: 32px;
+  color: var(--accent-color);
+  margin: 10px 0;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  height: 150px; /* Set fixed height for scrollable content */
+  overflow-y: auto;
+  scrollbar-width: thin; /* For modern browsers */
+  scrollbar-color: var(--accent-color) #f9f9f9;
+}
+.pricing-features::-webkit-scrollbar {
+  width: 4px;
+}
+
+.pricing-features::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+
+.pricing-features::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+.pricing-features::-webkit-scrollbar-button {
+  display: none; /* Hides the scrollbar buttons */
+}
+.pricing-features li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border: none;
+  padding: 10px 20px;
+  /* color: #fff; */
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-color);
+}
+.btn-outline-secondary:hover {
+  background-color: var(--accent-color);
+}
+.offer-banner {
+  background-color: #41464b; /* Light background */
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+
+.offer-content {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.offer-text {
+  flex: 1;
+}
+
+.offer-text h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.offer-text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-size: 11px;
+}
+@media (max-width: 575px) {
+.offer-text p {
+  font-size: 11px;
+}
+}
+.offer-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.offer-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.offer-lists {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.offer-list-left, .offer-list-right {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+@media (max-width: 575px) {
+  .offer-list-left li, .offer-list-right li  {
+    font-size: 10px;
+  }
+}
+.offer-list-left li, .offer-list-right li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.offer-list-left li i, .offer-list-right li i {
+  margin-right: 10px;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+@media (max-width: 575px) {
+  .offer-btn  {
+    font-size: 12px;
+  }
+}
+.offer-image img {
+  max-width: 100%;
+  height: auto;
+}
+/* reviews */
+.reviews-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden; /* Ensures only one slide is visible at a time */
+}
+
+.reviews-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+.reviews-slider {
+  width: 100%;
+  overflow: hidden; /* Ensures slides stay within the container */
+  position: relative;
+}
+
+.reviews-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Smooth sliding effect */
+}
+
+.review-slide {
+  flex: 0 0 100%; /* Each slide takes 100% width of the container */
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.testimonial-card {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border: 3px solid var(--accent-color);
+}
+
+.testimonial-review {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.testimonial-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.testimonial-position {
+  font-size: 1rem;
+  color: #777;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  padding: 0 !important;
+  transform: translateY(-50%);
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background: #d73838;
+}
+
+
