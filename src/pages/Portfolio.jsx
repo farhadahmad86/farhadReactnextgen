@@ -68,7 +68,7 @@ const Portfolio = () => {
       id: 8,
       category: "filter-app",
       title: "Website 8",
-      image: "assets/img/masonry-portfolio/Websites/web-8..webp",
+      image: "assets/img/masonry-portfolio/Websites/web-8.webp",
     },
     // Logo
     {

@@ -1649,7 +1649,7 @@ section,
   will-change: transform; /* Optimize for animation */
 }
 
-.portfolio .portfolio-item:hover .portfolio-image {
+.portfolio .filter-app:hover .portfolio-image {
   transform: translateY(-100%); /* Slide the image up by its full height */
 }
 

@@ -124,11 +124,9 @@ const Contact = () => {
                     <textarea className="form-control" name="message" rows="6" placeholder="Tell Us Your Project" required value={formData.message} onChange={handleInputChange}></textarea>
                   </div>
                   <div className="col-md-12 text-center">
-                    {/* {formStatus.loading && <div className="loading">Loading...</div>}
-                    {formStatus.errorMessage && <div className="error-message">{formStatus.errorMessage}</div>}
-                    {formStatus.successMessage && <div className="success-message">{formStatus.successMessage}</div>} */}
+                    <p style={{ color: "black" }}>By providing your phone number and clicking 'Submit,' you agree to receive automated promotional messages from NextGen Studio  at the phone number provided. Consent is not a condition of purchase. Message and data rates may apply. Reply STOP to opt-out.</p>
                     <button type="submit" disabled={formStatus.loading}>
-                      Send Message
+                      Submit
                     </button>
                   </div>
                 </div>
