@@ -254,7 +254,7 @@ const TermsAndConditions = () => {
                   <Link to="mailto:support@nextgenstudio.co">
                     support@nextgenstudio.co
                   </Link>
-                  , call <Link to="tel:+13072630994">(307) 263-0994</Link>, or
+                  , call <Link to="tel:+13074421366">(307) 442 1366</Link>, or
                   visit{" "}
                   <Link
                     to="http://www.nextgenstudio.co"

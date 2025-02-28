@@ -148,7 +148,7 @@ const Contact = () => {
               <i className="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>(307) 263 0994</p>
+                <p>(307) 442 1366</p>
               </div>
             </div>
 

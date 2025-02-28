@@ -110,7 +110,7 @@ const Footer = () => {
               <br />
                WY 8280 <br />
               <br />
-              <strong>Phone:</strong> (307) 263 0994
+              <strong>Phone:</strong> (307) 442 1366
               <br />
               <strong>Email:</strong> info@nextgenstudio.co
               <br />
